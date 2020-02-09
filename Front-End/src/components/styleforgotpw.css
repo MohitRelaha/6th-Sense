@@ -1,0 +1,106 @@
+html,body
+{
+    margin-top: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+#inputContainerFP{
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid white;
+}
+
+#inputContainerFP h2{
+    text-align:center;
+}
+
+#inputContainerFP input[type="email"]{
+    display: block;
+    border-bottom: 1px solid black;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+#inputContainerFP label{
+    color: black;
+    font-size: 16;
+    margin-top: 15px;
+}
+
+#inputContainerFP button{
+    border: 2px solid black;
+    border-radius: 250px;
+    color: lightseagreen;
+    font-family: serif;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 40px;
+    width: 100%;
+}
+
+#inputContainerFP button:hover
+{
+    cursor:pointer;
+}
+
+#forgotPwHeader{
+    padding-top: 1px;
+    height: 85px;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+
+#forgotPwMiddle{
+    padding-top: 90px;
+    width:20%;
+    padding-left: 35%;
+  
+}
+
+#changePwBut:hover{
+    
+    background-color: lightseagreen;
+    color: white;
+}
+
+.field_set{
+    border-color: lightseagreen;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.headerLeft{
+    float: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#pFP{
+    font-family: serif;
+    color:black;
+}
+
+li img{
+    margin-left: 20px;
+}
+
+li h3{
+    color:white;
+    margin-left: 85px;
+}
+
+h3{
+    color: lightseagreen;
+    font-family: serif;
+}

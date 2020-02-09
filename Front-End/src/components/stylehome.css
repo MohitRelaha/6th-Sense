@@ -1,0 +1,282 @@
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+
+.homeContainer{
+    background-image: url("../images/heroimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.header{
+    background-color: black;
+    height:80px;
+    width:100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+#sticky{
+    position: sticky;
+    top: 0;
+    
+}
+
+
+#ulHome{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+
+li img{
+    padding-left: 100px;
+}
+
+li h3{
+    color:white;
+    padding-left: 120px;
+}
+
+
+.links,li.heading{
+    color: white;
+    padding: 14px 16px;
+    opacity: 1;
+    text-align: left;  
+}
+
+.leftSide{
+    margin: 0;
+    position:absolute;
+    float:left;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+.rightSide{
+    padding-top: 70px;
+    float:right;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+ 
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+.containerBody{
+    align-content: center;
+    padding-top: 100px;
+    text-decoration-color: white;
+}
+
+.containerBody h1,.containerBody h2{
+    color: white;
+    text-align: center;
+}
+
+.containerBody h1{
+    font-size: 80px;
+}
+
+
+.getStarted{
+    background-color: #130106;
+    border: 2px solid #130106;
+    border-radius: 250px;
+    color: white;
+    font-family: serif;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 40px;
+    width: 20%;
+
+}
+
+.footerLeftSide{
+    margin:0;
+    position: absolute;
+    float:left;
+   
+}
+
+.footerLeftSide img{
+    margin-top:60px;
+    padding-left:60px;
+}
+
+.footerLeftSide h3{
+    margin-top:59px;
+    padding-left:80px;
+}
+
+.contactinfo{
+    margin: 0;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    position:relative;
+}
+
+.contactinfo1, .contactinfo2, .contactinfo3, .contactinfo4{
+    float:left;
+    height: 400px;
+    width: 18%;
+    position:relative;
+    padding-top: 50px;
+}
+
+.contactinfo5 {
+    float:left;
+    height:400px;
+    width:28%;
+    position:relative;
+    padding-top: 50px;
+}
+
+.sociallogo{
+    padding: 0;
+    height: 50px;
+    width:65px;
+    float: left;
+    margin:0;
+    position: relative;
+}
+
+.leftSide:hover{
+    cursor:pointer;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.noServeMsg{
+    height: 720px;
+    /* padding-top: 100px; */
+    margin-top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, pink,blue);
+    color: white;
+    position: absolute;
+}
+
+.noServeMsg h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.noServeMsg p{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
+.aboutContainer{
+    background-image: url("../images/about9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.aboutContainer .knowmore{
+    margin-left: 390px;
+    margin-top: 250px;
+    width: 900px; 
+    position: relative;
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#grad {
+    background-image: linear-gradient(to right, red , blue);
+    color:white;
+    text-align:center;
+    height:400px;
+    width: 1538px;
+    position: absolute;
+    margin:0;
+  }
+  
+  .helpBody .helpLine p{
+      padding-top: 120px;
+      color:white;
+      font-size: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 100;
+  }
+  
+  
+
+
+  .helpBody .helpSearch input{
+      width: 900px;
+      margin: auto;
+      height: 40px;
+     
+  }
+  
+  .helpInfo{
+     
+      height:320px;
+      width: 1338px;
+      background-color: papayawhip;
+      padding-top: 400px;
+      padding-left: 200px;
+     
+  }
+  
+  .helpInfo p{
+      font-size:25px;
+      color: black;
+      position: relative;
+      font-family: 'Playfair Display', serif;
+      margin: 50px;
+  }
+
+  .helpContainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.helpMain{
+    height: 691px;
+    position: fixed;
+}

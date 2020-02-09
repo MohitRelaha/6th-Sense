@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea167e4c.chunk.css",
+    "main.js": "/static/js/main.95c22665.chunk.js",
+    "main.js.map": "/static/js/main.95c22665.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c576046.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c576046.js.map",
+    "static/js/2.cefa725b.chunk.js": "/static/js/2.cefa725b.chunk.js",
+    "static/js/2.cefa725b.chunk.js.map": "/static/js/2.cefa725b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74b3fa06450286b63c253106793ccc8e.js": "/precache-manifest.74b3fa06450286b63c253106793ccc8e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ea167e4c.chunk.css.map": "/static/css/main.ea167e4c.chunk.css.map",
+    "static/media/stylehome.css": "/static/media/heroimage2.140856d3.jpg",
+    "static/media/stylelogin.css": "/static/media/bg.3796cf04.jpg",
+    "static/media/english.JPG": "/static/media/english.fee0946e.JPG",
+    "static/media/facebook.png": "/static/media/facebook.38176372.png",
+    "static/media/hindi.JPG": "/static/media/hindi.1f70adf4.JPG",
+    "static/media/insta.png": "/static/media/insta.dd578c41.png",
+    "static/media/punjabi.JPG": "/static/media/punjabi.2ddf1fd0.JPG",
+    "static/media/sardarji2.jpg": "/static/media/sardarji2.fea80320.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c576046.js",
+    "static/js/2.cefa725b.chunk.js",
+    "static/css/main.ea167e4c.chunk.css",
+    "static/js/main.95c22665.chunk.js"
+  ]
+}

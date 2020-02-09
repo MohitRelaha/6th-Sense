@@ -1,0 +1,356 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+
+.navSearchBar ::placeholder { /* Most modern browsers support this now. */
+   color:    grey;
+}
+
+
+#nowPlayingContainer{
+    width: 100%;
+    background-color: #292626;
+    bottom: 0;
+    position: fixed;
+    min-width: 620px;
+}
+
+#nowPlayingBar{
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#nowPlayingLeft,
+#nowPlayingRight{
+    width:30%;
+    min-width:100px;
+}
+
+#nowPlayingRight{           /* volume bar upar aa rhi thi*/
+    position: relative;
+    margin-top: 16px;        
+}
+
+#nowPlayingMiddle{
+    width:40%;
+    min-width:700px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#nowPlayingBar .content{
+    width:100%;
+    height:57px;
+}
+
+.playerControls .buttons{
+    margin: 0 auto;
+    display: table;
+}
+
+.controlButton{
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.controlButton img{
+    width: 20px;
+    height: 20px;
+}
+
+.play img,
+.pause img{
+    height: 32px;
+    width: 32px;
+}
+
+.controlButton:hover{
+    cursor: pointer;
+}
+
+.progressTime{
+    color:grey;
+    font-size: 11px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.progressBar{
+    width: 100%;
+    height: 12px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.playbackBar{
+    display: flex;
+}
+
+.progressBarBg{
+    background-color: grey;
+    height: 4px;
+    width:100%;
+    border-radius: 2px;
+}
+
+.progress{
+    background-color: #ffffe7;
+    height: 4px;
+    width: 0;
+    border-radius: 2px
+}
+
+.playbackBar .progressBar{
+    margin-top: 4px;
+}
+
+
+#nowPlayingLeft .albumArtwork{
+    height: 100%;
+    max-width: 57px;
+    margin-right: 15px; /* vrna image ke sath text chipkega */
+    float:left;
+    background-size: cover; /* image puri cover krne ke liye */
+}
+
+#nowPlayingLeft .trackInfo{
+    display: table;
+}
+
+#nowPlayingLeft .trackInfo .trackName{
+    margin: 6px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#nowPlayingLeft .trackInfo .artistName span{
+    font-size: 12px;
+    color:grey;
+}
+
+.volumeBar{
+    width: 180px;
+    position: absolute;
+    right: 0
+}
+
+.volumeBar .progressBar{
+    width: 125px;
+}
+
+#topContainer{
+    min-width: 100%;
+    width:100%;
+    /*height:791px;*/
+    height: 100%;
+    background-color: #181818;
+    background-attachment: fixed;
+}
+
+#navBarContainer{
+    background-color: black;
+    width: 220px;
+    height: 100vh;              /*vh-> view height  jitna view h iska*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navBar{
+    padding:25px;
+    display : flex;
+    flex-direction: column;
+    -ms-flex-direction: column; /* for Internet Explorer*/
+}
+
+.logo{
+    margin-bottom: 15px;
+}
+
+.navBar .group{
+    border-top : 1px solid grey;
+    padding: 10px 0;
+}
+
+.navItem{
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navItemLink{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.navItemLink:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.navItem .icon{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 25px;
+}
+
+
+#displayPart{
+    padding: 0 20px;
+}
+
+#displayPart button{
+    background-color: black;
+    border: none;
+    vertical-align: middle;
+}
+
+#displayPartContainer{
+    margin-left: 220px;
+    padding-bottom: 90px;
+    width: calc(100% - 220px);
+    min-height: 791px;
+    overflow: hidden;
+}
+
+#browseContainer{
+    margin-left: 220px;
+    width: calc(100% - 220px); 
+    overflow: hidden;
+    min-height: 791px;
+}
+
+
+.gridViewContainer{
+    padding-bottom: 90px;
+}
+
+.gridViewItem{
+    display: inline-block;
+    margin-right: 20px;
+    width:29%;
+    max-width: 200px;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.gridViewItem img{
+    width: 100%;
+    height: 150px;
+}
+
+.gridViewInfo{
+    font-weight: 300;
+    text-align: center;
+    padding:5px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.searchContainer{
+    background-color: #242424;
+    padding: 20px 28px;
+}
+
+.searchContainer h4{
+    margin:0;   /* By default marging h tag ka hatane ke liye */
+    font-weight: 300;
+}
+
+.searchContainer .searchInput{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-container{
+    background-color:#272727;
+    height: 791px;
+}
+
+.form-body {
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    border: none;
+    padding-top: 110px;
+    
+}
+
+.form-body label{
+    color:white;
+    width: 100px;
+}
+
+.form-body input{
+    border-radius: 15px;
+    border-style: none;
+    margin: 4px;
+    color:black;
+    padding-left: 10px;
+    width: 250px;
+    display: block; 
+}
+
+*:focus {
+    outline: none;
+}
+
+.form-body input.upload-button{
+    text-align: center;
+    width:90px;
+    margin-left: 160px;
+}
+
+.radioBut{
+    padding-left: 80px;
+    
+}
+
+.radioBut input{
+    margin: 10px 5px;
+    width: 15px;
+    display: initial;
+}
+
+#totalCost{
+    padding-left: 80px;
+}
+
+.checkoutBut{
+    padding-left: 60px;    
+}
+
+
+

@@ -1,0 +1,146 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#background{
+    background-color: black;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+#loginContainer *{
+    color: white;
+    font-family: "Helvetica Neue","Helvetica","Areal","sans-serif" ; 
+    font-weight : normal;
+    line-height : 1em;
+    box-sizing : border-box;
+}
+
+#loginContainer{
+    width : 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    wheat;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    wheat;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    wheat;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    wheat;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    bisque;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    bisque;
+}
+
+#inputContainer{
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid white;
+}
+
+#inputContainer h2{
+    text-align:center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="password"],
+#inputContainer input[type="email"]{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+#inputContainer label{
+    color: rgba(232, 172, 172, 0.87);
+    font-size: 16;
+    margin-top: 15px;
+}
+
+#inputContainer button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 250px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 40px;
+    width: 100%;
+}
+
+#inputContainer button:hover,
+#hideLogin:hover,
+#hideRegister:hover{
+    cursor:pointer;
+}
+
+.hasAccount span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hasAccount{
+    text-align:center;
+}
+
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
+
+#loginText h1{
+    color: coral;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#loginText h2{
+    color:white;
+    
+}
+
+#loginText h1{
+    margin: 35px 0;
+}
+
+#loginText ul{
+    padding:0;
+}
+
+#loginText li{
+    color:white;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0 29px;
+    background: url(../images/check.png) no-repeat;
+}
+
+
+
